@@ -1,0 +1,689 @@
+@font-face {
+    font-family: LatoRegular;
+    src: url("fonts/Lato/Lato-Regular.ttf");
+}
+@font-face {
+    font-family: LatoBold;
+    src: url("fonts/Lato/Lato-Bold.ttf");
+}
+@font-face {
+    font-family: LatoBlack;
+    src: url("fonts/Lato/Lato-Black.ttf");
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: LatoRegular;
+}
+.shapka {
+    display: flex;
+    width: 1920px;
+
+    background: #1E212C;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 5px;
+    font-size: 14px;
+    margin-left: 138px;
+    width: 554px;
+    gap: 32px;
+    margin-top: 0px;
+    padding-bottom: 4px;
+}
+.text {
+    color: #FFFFFF;
+    font-size: 14px;
+    padding-right: 50px;
+    width: 212px;
+}
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+header nav {
+    display: flex;
+    padding-left: 344px;
+    padding-top: 13px;
+    padding-bottom: 5px;
+}
+.usa {
+    width: 20px;
+    height: 12px;
+    margin-top: 3px;
+}
+.strelka {
+    width: 12px;
+    height: 12px;
+    margin-top: 3px;
+    margin-left: 4px;
+}
+.Eng {
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-left: 12px;
+    margin-top: 0px;
+}
+.log {
+    display: flex;
+    gap: 9px;
+    margin-top: 0px;
+}
+.person {
+    width: 15px;
+    height: 15px;
+    margin-left: 60px;
+    margin-top: 0px;
+}
+.reg {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.logotip {
+    padding-bottom: 15px;
+    background: white;
+    width: 1920px;
+}
+.navigation {
+    display: flex;
+}
+.li {
+    font-family: LatoBold;
+    color: black;
+    font-size: 16px;
+}
+.text_li {
+    gap: 40px;
+    margin-top: 19px;
+    margin-left: 61px;
+    width: 475px;
+}
+.li_sale {
+    font-family: LatoBold;
+    color: #FF4242;
+    font-size: 16px;
+}
+.logoo {
+    height: 22px;
+    width: 130px;
+    margin-top: 18px;
+    margin-left: 1px;
+}
+#rectangle {
+    width: 378px;
+    height: 42px;
+    background: none;
+    border: 1px solid #D7DADD;
+    border-radius: 4px;
+    display: flex;
+    margin-top: 7px;
+}
+.lupa {
+    width: 16px;
+    height: 16px;
+    margin-top: 13px;
+    margin-left: 203px;
+}
+.text_poisk {
+    color: #9A9CA5;
+    font-size: 14px;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+.like {
+    height: 20px;
+    width: 20px;
+    margin-top: 19px;
+    margin-left: 48px;
+}
+.korz {
+    width: 53px;
+    height: 22px;
+    margin-top: 19px;
+    margin-left: 19px;
+}
+.borderto {
+    border: 1px solid #DADBDD;
+    height: 17px;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+.chislo {
+    margin-top: 19px;
+    margin-left: 8px;
+}
+.salegreen {
+
+    width: 1920px;
+    padding-bottom: 9px;
+    background: #17696A;
+}
+.centr{
+    display: flex;
+    margin-left: 825px;
+    width: 320px;
+    padding-top: 9px;
+}
+.left {
+    height: 16px;
+    width: 16px;
+    margin-right: 12px;
+}
+.right {
+    height: 12px;
+    width: 7px;
+    margin-left: 17px;
+    margin-top: 2px;
+}
+.sale_text {
+    font-size: 12px;
+    color: #FFFFFF;
+    font-family: LatoBold;
+    margin-right: 3px;
+}
+.salegreen_text {
+    font-size: 12px;
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+.man {
+    background-image: url("img/bigman.png");
+    
+    padding-bottom: 180px;
+}
+.ob {
+    padding-bottom: 185px;
+}
+.kid {
+    padding-top: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.text_bold {
+    font-family: latoBold;
+    font-size: 18px;
+    padding-top: 142px;
+    padding-left: 345px;
+    letter-spacing: 1px;
+}
+.text_black {
+    font-family: LatoBlack;
+    font-size: 72px;
+    padding-top: 19px;
+    padding-left: 345px;
+    letter-spacing: 1px;
+}
+.bubn {
+    background: none;
+    width: 152px;
+    height: 52px;
+    border-radius: 4px;
+    border: 1px solid #17696A;
+    color: #17696A;
+    font-size: 16px;
+    font-family: LatoBold;
+    margin-left: 345px;
+    margin-top: 64px;
+}
+.bibn {
+    background: #17696A;
+    width: 229px;
+    height: 52px;
+    border: 1px solid #17696A;
+    color: white;
+    font-size: 16px;
+    font-family: LatoBold;
+    border-radius: 4px;
+    margin-left: 21px;
+}
+.border_slid {
+    display: flex;
+    gap: 4px;
+    margin-top: 200px;
+    margin-left: 344px;
+}
+.nomer {
+    font-size: 28px;
+    font-family: LatoBold;
+    color: #424551;
+    margin-top: -15px;
+    opacity: 30%;
+}
+.border_nomer {
+    border: 1px solid #424551;
+    width: 176px;
+    margin-top: 15px;
+    opacity: 30%;
+}
+.border_nom {
+    border: 1px solid #424551;
+    width: 176px;
+    margin-top: 15px;
+}
+.nom {
+    font-size: 28px;
+    font-family: LatoBold;
+    color: #424551;
+    margin-top: -15px;
+}
+.images {
+    display: flex;
+    gap: 30px;
+    margin-top: -60px;
+    margin-left: 344px;
+}
+.people {
+    font-family: LatoBold;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+}
+.zagol {
+    text-align: center;
+}
+.black {
+    font-family: LatoBlack;
+    font-size: 46px;
+    margin-left: 13px;
+}
+.grey {
+    color: #787A80;
+    font-size: 18px;
+    margin-left: 13px;
+    margin-top: 29px;
+}
+.green {
+    font-size: 18px;
+    color: #17696A;
+    border-bottom: 1px solid #17696A;
+    width: 178px;
+    margin-left: 869px;
+    margin-top: 4px;
+}
+.assortiment {
+    display: flex;
+    gap: 30px;
+    margin-top: 63px;
+    margin-left: 30px;
+}
+.assortiment_text {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 16px;
+    color: #424551;
+}
+.price {
+    font-family: LatoBold;
+    font-size: 20px;
+    margin-top: 12px;
+    margin-left: 16px;
+}
+.borders {
+    display: flex;
+    gap: 12px;
+    margin-top: 95px;
+    margin-left: 840px;
+    border-radius: 4px;
+}
+.border_s {
+    border: 1px solid #B3B7BC;
+    width: 28px;
+}
+.border_g {
+    border: 1px solid #424551;
+    width: 28px;
+}
+.container {
+    display: grid;
+    gap: 20px;
+    height: 1016px;
+    width: 1860px;
+    margin-top: 180px;
+    margin-left: 30px;
+    grid-template-areas: 
+    "A A A A   A B B B   B B B B"
+    "A A A A   A B B B   B B B B"
+    "C C C C   C C C D   D D D D"
+    "C C C C   C C C D   D D D D";
+}
+.one {
+    grid-area: A;
+    background-image: url("img/towoman.png");
+    width: 735px;
+    height: 500px;
+}
+.two {
+    grid-area: B;
+    background-image: url("img/toman.png");
+    width: 1109px;
+    height: 500px;
+}
+.three {
+    grid-area: C;
+    background-image: url("img/shop.png");
+    width: 1110px;
+    height: 500px;
+}
+.four {
+    grid-area: D;
+    background-image: url("img/Group 1.png");
+    width: 735px;
+    height: 500px;
+}
+.price_button {
+    background: none;
+    width: 191px;
+    height: 44px;
+    border-radius: 4px;
+    border: 1px solid #17696A;
+    color: #17696A;
+    font-size: 15px;
+    font-family: LatoBold;
+    margin-left: 60px;
+    margin-top: 41px;
+    
+}
+
+.one_text {
+    font-size: 14px;
+    font-family: LatoBold;
+    margin-top: 62px;
+    margin-left: 60px;
+    letter-spacing: 1px;
+}
+.one__text {
+    font-size: 32px;
+    font-family: LatoBlack;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+.three_text {
+    font-size: 14px;
+    font-family: LatoBold;
+    margin-top: 58px;
+    margin-left: 60px;
+  letter-spacing: 1px;
+}
+.three__text {
+    font-size: 32px;
+    font-family: LatoBlack;
+    margin-top: 17px;
+    margin-left: 60px;
+}
+.three_b {
+    background: none;
+    width: 155px;
+    height: 44px;
+    border-radius: 4px;
+    border: 1px solid #17696A;
+    color: #17696A;
+    font-size: 15px;
+    font-family: LatoBold;
+    margin-left: 60px;
+    margin-top: 43px;
+}
+.two_text {
+    font-size: 14px;
+    font-family: LatoBold;
+    margin-top: 61px;
+    margin-left: 56px;
+    letter-spacing: 1px;
+}
+.two__text {
+    font-size: 32px;
+    font-family: LatoBlack;
+    margin-top: 17px;
+    margin-left: 56px;
+}
+.two_b {
+    background: none;
+    width: 130px;
+    height: 44px;
+    border-radius: 4px;
+    border: 1px solid #17696A;
+    color: #17696A;
+    font-size: 15px;
+    font-family: LatoBold;
+    margin-left: 56px;
+    margin-top: 43px;
+}
+.two___text{
+    font-size: 14px;
+    font-family: LatoBold;
+    margin-top: 82px;
+    margin-left: 55px;
+    letter-spacing: 1px;
+}
+.time {
+    display: flex;
+    margin-top: 19px;
+    margin-left: 56px;
+    gap: 25px;
+}
+.time_text {
+    font-size: 28px;
+    font-family: LatoBold;
+}
+.time__text {
+    font-size: 14px;
+    margin-top: 9px;
+    text-align: center;
+}
+.sub {
+    gap: 0px;
+    display: flex;
+}
+.four_text {
+    font-size: 14px;
+    font-family: LatoBold;
+    margin-top: 56px;
+    margin-left: 55px;
+    letter-spacing: 1px;
+}
+.four__text {
+    font-size: 32px;
+    font-family: LatoBlack;
+    margin-top: 16px;
+    margin-left: 55px;
+}
+.four_mail {
+    font-size: 14px;
+    margin-top: 35px;
+    margin-left: 55px;
+}
+.four_b {
+    background: #17696A;
+    width: 130px;
+    height: 44px;
+    border: 1px solid #17696A;
+    color: white;
+    font-size: 16px;
+    font-family: LatoBold;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;;
+    margin-left: 0px;
+    margin-top: 9px;
+}
+input {
+    width: 213px;
+    height: 44px;
+    border: 1px solid #e2e1e1;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+    background: #ffffff;
+    color: #9E9C9C;
+    margin-top: 9px;
+    margin-left: 56px;
+    padding-left: 15px;
+}
+.four___text {
+    font-size: 14px;
+    color: #424551;
+    margin-top: 20px;
+    margin-left: 55px;
+    width: 366px;
+    line-height: 19px;
+}
+.categories_p {
+    text-align: center;
+    font-size: 46px;
+    font-family: LatoBlack;
+    margin-top: 181px;
+    margin-left: 6px;
+    letter-spacing: -1px;
+}
+.radius {
+    display: flex;
+    gap: 30px;
+    margin-top: 62px;
+    margin-left: 345px;
+    margin-bottom: 181px;
+
+}
+.elements_text {
+    text-align: center;
+    font-size: 20px;
+    font-family: LatoBold;
+    margin-top: 25px;
+}
+.new_trend {
+    background-color: #E5E8ED;
+    width: 1920px;
+    padding-bottom: 79px;
+}
+.element_trend {
+    display: flex;
+    padding-top: 83px;
+    margin-left: 345px;
+
+}
+.text_elem {
+    font-size: 46px;
+    font-family: LatoBlack;
+}
+.img_trendd {
+    width: 84px;
+    height: 48px;
+    margin-left: 873px;
+    padding-top: 22px;
+}
+.img_flex {
+    display: flex;
+    gap: 30px;
+    margin-top: 49px;
+    margin-left: 345px;
+}
+.text_flex {
+    font-size: 18px;
+    margin-top: 14px;
+    margin-left: 16px;
+}
+.stoimost {
+    font-size: 24px;
+    font-family: LatoBold;
+    margin-top: 12px;
+    margin-left: 16px;
+}
+.buttom_trend {
+    background: none;
+    width: 210px;
+    height: 52px;
+    border-radius: 4px;
+    border: 1px solid #17696A;
+    color: #17696A;
+    font-size: 15px;
+    font-family: LatoBold;
+    margin-left: 854px;
+    margin-top: 97px;
+    letter-spacing: 1px;
+}
+.up {
+    display: flex;
+    margin-top: 104px;
+    margin-left: 344px;
+}
+.text_up {
+    font-size: 46px;
+    font-family: LatoBlack;
+}
+.img_up {
+    width: 72px;
+    height: 25px;
+    margin-left: 855px;
+    margin-top: 32px;
+}
+.sale_blocks {
+    display: flex;
+    margin-top: 61px;
+    margin-left: 345px;
+    gap: 30px;
+}
+.text_block {
+    font-size: 18px;
+    margin-top: 16px;
+    margin-left: 17px;
+    color: #424551;
+}
+.obj {
+    display: flex;
+    gap: 0px;
+}
+.red {
+    color: #FF4242;
+    font-family: LatoBold;
+    font-size: 24px;
+    margin-top: 12px;
+    margin-left: 16px;
+}
+.old_price {
+    color: #787A80;
+    font-size: 18px;
+    text-decoration: line-through;
+    margin-top: 17px;
+    margin-left: 12px;
+}
+.setings {
+    display: flex;
+    margin-top: 21px;
+    margin-left: 11px;
+}
+.text_rezmer {
+    background: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    border: 1px solid #D7DADD;
+    color: #424551;
+    font-size: 12px;
+    margin-left: 7px;
+    margin-top: 0px;
+    letter-spacing: 1px;
+}
+.img_colorr {
+    margin-left: 119px;
+}
+.button_sale {
+    background: #17696A;
+    width: 358px;
+    height: 44px;
+    border-radius: 4px;
+    border: 1px solid #17696A;
+    color: white;
+    font-size: 14px;
+    font-family: LatoBold;
+    margin-left: 16px;
+    margin-top: 16px;
+    letter-spacing: 1px;
+    display: flex;
+    padding-left: 136px;
+    padding-top: 14px;
+}
+.cartto {
+    width: 16px;
+    height: 16px;
+    margin-left: -7px;
+    margin-right: 8px;
+}
